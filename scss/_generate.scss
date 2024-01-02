@@ -1,0 +1,51 @@
+.code-info {
+    // margin-bottom: 16px;
+    color: rgb(217, 217, 227) !important;
+}
+
+#code-snippets {
+    background-color: #2b2b2b !important;
+
+    pre {
+        min-height: 100% !important;
+        max-height: auto !important;
+        overflow: auto !important;
+        color: #fff;
+    }
+}
+
+.code-copy-btn {
+    margin: 0px;
+    text-decoration: none;
+    color: #fff;
+    background-color: #333;
+    border-radius: 4px;
+    padding: 0px 6px;
+    cursor: pointer;
+    font-size: 12px;
+    border: 1px solid #333;
+    outline: none;
+
+    &:hover,
+    &:active,
+    &:hover,
+    &:focus {
+        color: #fff;
+        background-color: #333;
+        outline: none;
+        text-decoration: none;
+        cursor: auto;
+    }
+}
+
+#sidebar-g {
+    position: sticky;
+    bottom: 0;
+    top: 0;
+
+    >div {
+        height: 100%;
+    }
+}
+
+

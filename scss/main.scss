@@ -1,0 +1,30 @@
+@import "./structure.scss";
+@import "./_layout.scss";
+@import "./_form.scss";
+@import "./_box.scss";
+@import "./_setting.scss";
+@import "./_generate.scss";
+@import "./_i.scss";
+@import "./header";
+
+.ifrom-option-builder{
+    .card{
+        border-radius: 0% !important;
+        box-shadow: none!important;
+    }
+
+    /**
+    * card heade border-bottom none
+    * not last card-header border
+    */
+    .card-header{
+        border-radius: 0% !important;
+        box-shadow: none!important;
+        border-bottom: none!important;
+        cursor: pointer;
+        background-color: #f3f3f3;
+    }
+}
+
+
+

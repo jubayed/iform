@@ -1,0 +1,36 @@
+$white: rgb(255, 255, 255);
+$black: rgb(0, 0, 0);
+$active-color: rgb(16,178,214);
+
+$primary: rgb(38, 132, 255);
+$secondary: rgb(128, 93, 202);
+$info: rgb(33, 150, 243);
+$success: rgb(0, 171, 85);
+$warning: rgb(226, 160, 63);
+$danger: rgb(231, 81, 90);
+$dark: rgb(59, 63, 92);
+
+$body-color: rgb(178, 220, 238);
+$box_primary_color: #2c2c2c;
+$box_secondary_color: #408cfd;
+
+/**
+*
+*
+**/
+$header-height: 60px;
+$footer-height: 32px;
+
+$main-height: calc(100vh - 94px);
+
+
+$theme-bg-color: #b2dcee;
+$app-dark-color: #242934;
+$app-body-bg-color: #f1f2f3;
+$app-light-active-color: #7367f0;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}

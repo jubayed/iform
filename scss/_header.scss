@@ -1,0 +1,41 @@
+
+#i-header {
+    ul.nav {
+        .nav-item {
+            margin-left: 3px;
+            margin-right: 3px;
+
+            .nav-link {
+                text-decoration: none;
+                box-shadow: 0 0.125rem 0.25rem rgba(165, 163, 174, .3);
+
+                color: $app-dark-color ;
+                border-color: rgba(0, 0, 0, 0);
+                background: #eaebec;
+
+                display: inline-flex;
+                align-items: center;
+                justify-content: center;
+                transition: all .135s ease-in-out;
+                transform: scale(1.001);
+
+                &.active, &:hover {
+                    color: #fff;
+                    border-color: $app-light-active-color;
+                    background-color: $app-light-active-color;
+
+                    svg {
+                        color: #fff;
+                    }
+                }
+
+                svg {
+
+                    color: $app-dark-color ;
+                    background: transparent;
+                    margin-right: 7px;
+                }
+            }
+        }
+    }
+}
