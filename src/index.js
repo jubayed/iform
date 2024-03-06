@@ -24,7 +24,7 @@ const router = createHashRouter([
     },
 
 ], {
-    basename: "/",
+    basename: "/react-form-builder",
 });
 
 root.render(
