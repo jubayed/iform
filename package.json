@@ -29,7 +29,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "react-scripts build && move build docs",
     "build-css": "node-sass scss/main.scss -o public/css/styles",
     "watch-css": "node-sass --watch --source-map=true scss/main.scss -o public/css/styles"
   },
