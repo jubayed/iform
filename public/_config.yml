@@ -1,0 +1,6 @@
+title: In the Same Boats
+email: your-email@example.com
+description: abc
+baseurl: "/react-form-builder" # the subpath of your site, e.g. /blog
+url: "https://jubayed.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+
