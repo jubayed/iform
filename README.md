@@ -1,4 +1,6 @@
-# Drag and Drop forms generate for any platforms or cms
+# Form generator 
+
+Drag and Drop forms generate for any platforms or cms
 
 ### `npm start`
 
