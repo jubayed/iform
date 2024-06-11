@@ -16,7 +16,7 @@ function Header() {
                 className="mx-3 text-dark text-decoration-none"
             >
                 <img
-                    src={`${window.location.origin}/images/logo.png`}
+                    src={`${window.location.origin}/form-g/images/logo.png`}
                     alt="ifram logo"
                     className="m-0"
                 />
