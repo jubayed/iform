@@ -1,8 +1,8 @@
 {
-  "name": "form-g",
+  "name": "iform",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://jubayed.github.io/form-g",
+  "homepage": "https://jubayed.github.io/iform",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@reduxjs/toolkit": "^1.9.5",
