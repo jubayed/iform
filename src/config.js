@@ -1,1 +1,1 @@
-export const BASENAME = '/form-g'
+export const BASENAME = '/iform'
