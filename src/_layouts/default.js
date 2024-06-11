@@ -9,6 +9,7 @@ import toast, { Toaster } from "react-hot-toast";
 import Header from "../_includes/header";
 import Footer from "../_includes/footer";
 import { formSelector } from "../_redux/formSlice";
+import { BASENAME } from "../config";
 
 export const DefaultLayout = (props) => {
 
@@ -46,7 +47,7 @@ export const DefaultLayout = (props) => {
     useEffect(() => {
         let timeoutFinal = null;
         if (APP_INIT === false) {
-            fetch(`${window.location.origin}/init.json`).then((response) => {
+            fetch(`${window.location.origin+ BASENAME}/init.json`).then((response) => {
                 if (response.ok) {
                     return response.json();
                 } else {
