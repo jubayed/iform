@@ -10,7 +10,6 @@ import i18n from './i18n';
 import "./_support/global";
 import HomePage from './_pages/home';
 import { GenerateFormPage } from './_pages/generate';
-import { BASENAME } from './config';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const router = createHashRouter([
@@ -25,7 +24,7 @@ const router = createHashRouter([
     },
 
 ], {
-    basename: `${BASENAME}`,
+    basename: `/`,
 });
 
 root.render(
