@@ -1,7 +1,8 @@
 {
-  "name": "react-form-builder",
+  "name": "form-g",
   "version": "1.0.0",
   "private": true,
+  "homepage": "https://jubayed.github.io/form-g",
   "dependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "@reduxjs/toolkit": "^1.9.5",
@@ -30,6 +31,8 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build-css": "node-sass scss/main.scss -o public/css/styles",
     "watch-css": "node-sass --watch --source-map=true scss/main.scss -o public/css/styles"
   },
@@ -52,6 +55,7 @@
     ]
   },
   "devDependencies": {
-    "workbox-webpack-plugin": "^7.0.0"
+    "workbox-webpack-plugin": "^7.0.0",
+    "gh-pages": "^6.1.1"
   }
 }
