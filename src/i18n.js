@@ -2,6 +2,7 @@ import i18n from 'i18next';
 import Backend from 'i18next-http-backend';
 import { initReactI18next } from 'react-i18next';
 import { getLang } from './_support/helper';
+import { BASENAME } from './config';
 
 i18n
     // load translation using http -> see /public/locales
@@ -18,7 +19,7 @@ i18n
         ns: "",
         backend: {
             // path where resources get loaded from
-            loadPath: window.location.origin + '/langs/{{lng}}.json',
+            loadPath: window.location.origin + BASENAME+ '/langs/{{lng}}.json',
             // path to post missing resources
             // addPath:  'http://127.0.0.1:8000/api/langs/{{lng}}',
         },
