@@ -3,6 +3,7 @@ import { FiHome, FiTerminal } from 'react-icons/fi'
 import { Link, useLocation } from 'react-router-dom'
 import Breakpoints from './_breakpoints'
 import { useTranslation } from 'react-i18next'
+import { BASENAME } from '../../config'
 
 function Header() {
 
@@ -16,7 +17,7 @@ function Header() {
                 className="mx-3 text-dark text-decoration-none"
             >
                 <img
-                    src={`${window.location.origin}/form-g/images/logo.png`}
+                    src={`${window.location.origin+ BASENAME}/images/logo.png`}
                     alt="ifram logo"
                     className="m-0"
                 />

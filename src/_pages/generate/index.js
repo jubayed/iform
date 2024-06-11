@@ -12,6 +12,7 @@ import { formSelector } from "../../_redux/formSlice";
 import { codeSelector, onChangeCode } from "../../_redux/codeSlice";
 import Compiler from "../../_support/compiler";
 import { DefaultLayout } from '../../_layouts/default';
+import { BASENAME } from "../../config";
 
 const initOutput = {
     code: JSON.stringify({
@@ -57,9 +58,9 @@ export const GenerateFormPage = () => {
          * @returns string
          */
         function _getAddonUrl() {
-            let addonUrl = window.location.origin + `/addons/bootstrap`;
+            let addonUrl = window.location.origin+ BASENAME + `/addons/bootstrap`;
             if (platform !== 'bootstrap') {
-                addonUrl = window.location.origin + `/addons/${platform}_${page_type}`;
+                addonUrl = window.location.origin+ BASENAME + `/addons/${platform}_${page_type}`;
             }
 
             const url = `${addonUrl}.js`;
