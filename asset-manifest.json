@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.js": "/iform/static/js/main.a69dac28.js",
+    "main.js": "/iform/static/js/main.8d8b1e99.js",
     "static/js/453.8686a6c4.chunk.js": "/iform/static/js/453.8686a6c4.chunk.js",
     "service-worker.js": "/iform/service-worker.js",
     "index.html": "/iform/index.html",
     "static/media/getFetch.cjs": "/iform/static/media/getFetch.c4cca45e22bc1b2c7d0d.cjs",
-    "main.a69dac28.js.map": "/iform/static/js/main.a69dac28.js.map",
+    "main.8d8b1e99.js.map": "/iform/static/js/main.8d8b1e99.js.map",
     "453.8686a6c4.chunk.js.map": "/iform/static/js/453.8686a6c4.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.a69dac28.js"
+    "static/js/main.8d8b1e99.js"
   ]
 }
